@@ -5,7 +5,169 @@
 *{
     margin:0;
     padding:0;
+   
 }
 
 /* Fill your code*/
 
+.cake-world{
+    width: 280px;
+    height: 180px;
+    background:black;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding-top:10px;
+}
+#cake-img{
+position: relative;
+left: 55px;
+}
+
+#cake-text{
+position: relative;
+color: white;
+left : 45px;
+bottom:18px;
+}
+.big-container{
+    
+    background-color: violet;
+}
+#header{
+    background: brown;
+}
+.image{
+    position:relative;
+    width: 23.3%;
+
+}
+
+
+.container{
+    color:white;
+    position:absolute;
+    top:50px;
+    left:80px;
+}
+.image2{
+    position:relative;
+    width:20%;
+   
+}
+p{
+    padding-bottom:15px;
+}
+
+.container2{
+    text-align:left;
+    color:white;
+    position:absolute;
+  top:40px;
+  right:20px;
+    
+    
+}
+
+.big-container{
+display:flex;
+justify-content: space-around;
+}
+.footer{
+    background-color: brown;
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.button {
+    background-color: violet;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button1{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+  }
+
+#layer1{
+    border-radius: 10px;
+    height: 2px;
+    width: 80px;
+    visibility: hidden; 
+    background: #ff4757;
+    margin: auto;
+    padding: 20px;
+}
+
+#layer2{
+     width: 200px;
+    left: 40px;
+    
+    border-radius: 10px;
+    width: 120px;
+    height: 2px;
+    visibility: hidden; 
+    background: #f7f1e3;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#layer3{
+    height: 2px;
+    width: 160px;
+    left: 60px;
+    visibility:hidden; 
+    border-radius: 10px;
+
+    background:yellow;
+        margin: auto;
+        padding: 20px;
+    
+}
+#layer4{
+         height: 2px;
+
+    
+         width: 200px;
+        left: 80px;
+        visibility: hidden;
+        border-radius: 10px;
+        width: 180px;
+        
+       
+        background: orangered;
+        margin: auto;
+        padding: 20px;
+    
+    }
+#layer5{
+    width: 200px;
+    left: 80px;
+    visibility: hidden;
+    border-radius: 10px;
+   
+    height: 2px;
+   
+    background:orange;
+    margin: auto;
+    padding: 20px;
+}
+
+.cake-container{
+padding:50px;
+}
