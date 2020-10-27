@@ -10,9 +10,9 @@ document.getElementById("Chocolatebtn").onclick = function(){
     layer--;
     bill++;
     total=total+300;
-   
+    
        
-        Chocolatebtn.style.margin= "20px ";
+       
         
        
   
@@ -24,7 +24,7 @@ document.getElementById("Strawberrybtn").onclick = function(){
     bill++;
     document.getElementById('layer'+layer).style.visibility="visible";
     layer--;
-        Strawberrybtn.style.margin= "20px ";
+        
        
   
 }
@@ -36,7 +36,7 @@ document.getElementById("Butterscotchbtn").onclick = function(){
     total=total+200;
     document.getElementById('layer'+layer).style.visibility="visible";
     layer--;
-        Butterscotchbtn.style.margin= "20px ";
+       
   
 }
 //var layer2  = document.getElementById('layer2');
@@ -47,7 +47,7 @@ document.getElementById("Vannilabtn").onclick = function(){
     document.getElementById('layer'+layer).style.visibility="visible";
     layer--;
         
-        Vannilabtn.style.margin= "20px ";
+       
   
 }
 //var layer1  = document.getElementById('layer1');
@@ -58,14 +58,16 @@ document.getElementById("Redvelvetbtn").onclick = function(){
     document.getElementById('layer'+layer).style.visibility="visible";
     layer--;
        
-        Redvelvetbtn.style.margin= "20px ";
+      
        
   
 }
 document.getElementById("buy").onclick = function(){
-    document.getElementById('total-bill').innerHTML="total----- " +total;
-
+   
+    document.getElementById('bill'+bill).innerHTML="total----- " +total;
+    if(layer==0){
+    document.getElementById('candle').style.visibility="visible"; 
+    }
     
-
 
 }
